@@ -24,7 +24,7 @@ public class IndexController {
 	@RequestMapping("/perfil")
 	public String perfil(Model model) {
 		Usuario usuario = new Usuario();
-		usuario.setNombre("Andres");
+		usuario.setNombre("Andres"); 
 		usuario.setApellido("Apellido");
 		usuario.setEmail("andres@correo.com");
 		model.addAttribute("usuario", usuario);
